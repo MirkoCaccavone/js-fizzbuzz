@@ -6,15 +6,24 @@
 // FUNZIONE
 
 // ciclo che stampa numeri da 1 a 100
+for(i = 1; i <= 100; i++){
+    
+    
+    if(i % 3 === 0 && i % 5 === 0){
+        console.log("FizzBuzz");
+        
+         
+    }else if (i % 3 === 0){
+        console.log("Fizz");
+        
 
-// controllare se un numero e divisibile per 3 0 5
-
-// stampare fizz invece del 3 o per i suoi multipli
-
-// stampare buzz invece del 5 o per i suoi multipli
-
-// OUTPUT
-// visualizzare lista completa
+    }else if(i % 5 === 0){
+        console.log("Buzz");
+        
+    }else{
+        console.log(i);
+    }
+}
 
 
 
