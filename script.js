@@ -7,22 +7,24 @@
 
 // ciclo che stampa numeri da 1 a 100
 for(i = 1; i <= 100; i++){
-    
+
+    let valore;
     
     if(i % 3 === 0 && i % 5 === 0){
-        console.log("FizzBuzz");
-        
+        valore = "FizzBuzz";
          
     }else if (i % 3 === 0){
-        console.log("Fizz");
+        valore = "Fizz";
         
-
     }else if(i % 5 === 0){
-        console.log("Buzz");
+        valore = "Buzz";
         
     }else{
-        console.log(i);
+        valore = i;
     }
+
+    console.log(valore);
+    
 }
 
 
