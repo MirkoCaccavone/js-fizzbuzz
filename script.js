@@ -8,7 +8,7 @@
 // ciclo che stampa numeri da 1 a 100
 for(i = 1; i <= 100; i++){
 
-    let valore;
+    let valore = i;
     
     if(i % 3 === 0 && i % 5 === 0){
         valore = "FizzBuzz";
@@ -17,10 +17,7 @@ for(i = 1; i <= 100; i++){
         valore = "Fizz";
         
     }else if(i % 5 === 0){
-        valore = "Buzz";
-        
-    }else{
-        valore = i;
+        valore = "Buzz";  
     }
 
     console.log(valore);
